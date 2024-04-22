@@ -1,3 +1,9 @@
+macro_tilde: macro_tilde{
+compatible = "zmk,behavior-macro";
+label = "macro_tilde";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp RIGHT_BRACKET>;
+};
 macro_dollar: macro_dollar{
 compatible = "zmk,behavior-macro";
 label = "macro_dollar";
@@ -14,7 +20,7 @@ macro_at_sign: macro_at_sign{
 compatible = "zmk,behavior-macro";
 label = "macro_at_sign";
 #binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp PIPE2>;
+bindings = <&sk LEFT_ALT>, <&kp HASH>;
 };
 macro_backtick: macro_backtick{
 compatible = "zmk,behavior-macro";

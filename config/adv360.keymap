@@ -40,21 +40,21 @@
 
         default_layer {
             bindings = <
-     &mo 2     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                   &tog 1                                                                             &mo 3  &kp N6         &kp N7           &kp N8          &kp N9          &kp N0         &kp MINUS
-   &kp ESC      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp AMPERSAND                                                                      &macro_minus   &kp Y          &kp U            &kp I           &kp O           &kp P  &kp LEFT_BRACKET
-   &kp TAB      &kp A     &kp S     &kp D      &kp F   &kp G              &macro_plus  &kp LCTRL          &kp HOME                     &kp PG_UP  &kp DEL   &macro_tmux   &kp H          &kp J            &kp K           &kp L   &kp SEMICOLON  &kp SINGLE_QUOTE
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                               &kp END                     &kp PG_DN                          &kp N          &kp M        &kp COMMA         &kp DOT       &kp COLON      &kp UP_ARROW
- &kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                        &kp SPACE   &kp BSPC  &kp LEFT_COMMAND                  &kp LEFT_ALT    &mo 1     &kp ENTER          &macro_dollar  &kp RIGHT_SHIFT  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW
+     &mo 2     &kp N1    &kp N2    &kp N3     &kp N4  &kp N5                   &tog 1                                                                             &mo 3  &kp N6         &kp N7          &kp N8        &kp N9          &kp N0            &kp MINUS
+   &kp ESC      &kp Q     &kp W     &kp E      &kp R   &kp T            &kp AMPERSAND                                                                      &macro_minus   &kp Y          &kp U           &kp I         &kp O           &kp P     &kp LEFT_BRACKET
+   &kp TAB      &kp A     &kp S     &kp D      &kp F   &kp G              &macro_plus  &kp LCTRL          &kp HOME                     &kp PG_UP  &kp DEL   &macro_tmux   &kp H          &kp J           &kp K         &kp L   &kp SEMICOLON     &kp SINGLE_QUOTE
+ &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B                                               &kp END                     &kp PG_DN                          &kp N          &kp M       &kp COMMA       &kp DOT       &kp COLON  &macro_single_quote
+ &kp LCTRL  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT                        &kp SPACE   &kp BSPC  &kp LEFT_COMMAND                  &kp LEFT_ALT    &mo 1     &kp ENTER          &macro_dollar  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW      &kp RIGHT_ARROW
             >;
         };
 
         layer_keypad {
             bindings = <
-     &none             &none             &none                 &none                 &none          &macro_plus                     &trans                                                                           &mo 3         &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
-   &kp TAB  &macro_l_bracket  &macro_r_bracket  &macro_l_curly_brace  &macro_r_curly_brace          &macro_pipe            &macro_backtick                                                                      &kp DOLLAR    &kp PERCENT   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
-   &kp ESC    &macro_at_sign   &macro_question          &macro_equal         &macro_graves  &macro_single_quote                &macro_plus      &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL  &kp NON_US_HASH       &kp PLUS   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS    &kp SQT
- &kp LSHFT        &kp TILDE2  &macro_less_than   &macro_greater_than           &macro_lift     &macro_semicolon                                            &kp HOME                  &kp PG_UP                              &kp AMPERSAND   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &kp RSHFT
-     &mo 2          &kp PIPE          &kp CAPS              &kp LEFT             &kp RIGHT                                       &kp SPACE  &kp BACKSPACE   &kp END                  &kp PG_DN     &trans        &kp ENTER                     &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT      &mo 2
+     &none             &none             &none                 &none                 &none          &macro_plus                     &trans                                                                           &mo 3         &kp N6  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY            &kp MINUS
+   &kp TAB  &macro_l_bracket  &macro_r_bracket  &macro_l_curly_brace  &macro_r_curly_brace          &macro_pipe            &macro_backtick                                                                      &kp DOLLAR    &kp PERCENT   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS             &kp BSLH
+   &kp ESC    &macro_at_sign   &macro_question          &macro_equal         &macro_graves  &macro_single_quote                &macro_plus      &kp LCTRL  &kp LALT                   &kp LGUI  &kp RCTRL  &kp NON_US_HASH       &kp PLUS   &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_PLUS              &kp SQT
+ &kp LSHFT      &macro_tilde  &macro_less_than   &macro_greater_than           &macro_lift     &macro_semicolon                                            &kp HOME                  &kp PG_UP                              &kp AMPERSAND   &kp KP_N1     &kp KP_N2      &kp KP_N3     &kp KP_ENTER  &macro_single_quote
+     &mo 2          &kp PIPE          &kp CAPS              &kp LEFT             &kp RIGHT                                       &kp SPACE  &kp BACKSPACE   &kp END                  &kp PG_DN     &trans        &kp ENTER                     &kp UP      &kp DOWN     &kp KP_DOT         &kp RBKT                &mo 2
             >;
         };
 
