@@ -14,7 +14,7 @@ macro_at_sign: macro_at_sign{
 compatible = "zmk,behavior-macro";
 label = "macro_at_sign";
 #binding-cells = <0>;
-bindings = <&sk LEFT_ALT>, <&kp SINGLE_QUOTE>;
+bindings = <&sk LEFT_ALT>, <&kp PIPE2>;
 };
 macro_backtick: macro_backtick{
 compatible = "zmk,behavior-macro";
