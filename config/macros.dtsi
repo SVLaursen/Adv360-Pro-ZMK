@@ -1,3 +1,87 @@
+macro_dollar: macro_dollar{
+compatible = "zmk,behavior-macro";
+label = "macro_dollar";
+#binding-cells = <0>;
+bindings = <&kp BACKSLASH>;
+};
+macro_minus: macro_minus{
+compatible = "zmk,behavior-macro";
+label = "macro_minus";
+#binding-cells = <0>;
+bindings = <&kp SLASH>;
+};
+macro_at_sign: macro_at_sign{
+compatible = "zmk,behavior-macro";
+label = "macro_at_sign";
+#binding-cells = <0>;
+bindings = <&sk LEFT_ALT>, <&kp SINGLE_QUOTE>;
+};
+macro_backtick: macro_backtick{
+compatible = "zmk,behavior-macro";
+label = "macro_backtick";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp EQUAL>;
+};
+macro_equal: macro_equal{
+compatible = "zmk,behavior-macro";
+label = "macro_equal";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp N0>;
+};
+macro_lift: macro_lift{
+compatible = "zmk,behavior-macro";
+label = "macro_lift";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp RIGHT_BRACKET>;
+};
+macro_single_quote: macro_single_quote{
+compatible = "zmk,behavior-macro";
+label = "macro_single_quote";
+#binding-cells = <0>;
+bindings = <&kp NON_US_HASH>;
+};
+macro_star: macro_star{
+compatible = "zmk,behavior-macro";
+label = "macro_star";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp NON_US_HASH>;
+};
+macro_question: macro_question{
+compatible = "zmk,behavior-macro";
+label = "macro_question";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp MINUS>;
+};
+macro_plus: macro_plus{
+compatible = "zmk,behavior-macro";
+label = "macro_plus";
+#binding-cells = <0>;
+bindings = <&kp MINUS>;
+};
+macro_pipe: macro_pipe{
+compatible = "zmk,behavior-macro";
+label = "macro_pipe";
+#binding-cells = <0>;
+bindings = <&sk RIGHT_ALT>, <&kp I>;
+};
+macro_graves: macro_graves{
+compatible = "zmk,behavior-macro";
+label = "macro_graves";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp EQUAL>;
+};
+macro_greater_than: macro_greater_than{
+compatible = "zmk,behavior-macro";
+label = "macro_greater_than";
+#binding-cells = <0>;
+bindings = <&sk LEFT_SHIFT>, <&kp GRAVE>;
+};
+macro_less_than: macro_less_than{
+compatible = "zmk,behavior-macro";
+label = "macro_less_than";
+#binding-cells = <0>;
+bindings = <&kp GRAVE>;
+};
 macro_colon: macro_colon{
 compatible = "zmk,behavior-macro";
 label = "macro_colon";
