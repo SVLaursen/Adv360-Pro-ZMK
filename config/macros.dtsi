@@ -8,7 +8,7 @@ macro_dollar: macro_dollar{
 compatible = "zmk,behavior-macro";
 label = "macro_dollar";
 #binding-cells = <0>;
-bindings = <&kp BACKSLASH>;
+bindings = <&kp A>;
 };
 macro_minus: macro_minus{
 compatible = "zmk,behavior-macro";
@@ -104,25 +104,25 @@ macro_r_bracket: macro_r_bracket{
 compatible = "zmk,behavior-macro";
 label = "macro_r_bracket";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp N9>;
+bindings = <&sk LEFT_ALT>, <&kp N9>;
 };
 macro_l_bracket: macro_l_bracket{
 compatible = "zmk,behavior-macro";
 label = "macro_l_bracket";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&kp N8>;
+bindings = <&sk LEFT_ALT>, <&kp N8>;
 };
 macro_r_curly_brace: macro_r_curly_brace{
 compatible = "zmk,behavior-macro";
 label = "macro_r_curly_brace";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&sk RIGHT_ALT>, <&kp N9>;
+bindings = <&kp LS(RA(9))>;
 };
 macro_l_curly_brace: macro_l_curly_brace{
 compatible = "zmk,behavior-macro";
 label = "macro_l_curly_brace";
 #binding-cells = <0>;
-bindings = <&sk LEFT_SHIFT>, <&sk RIGHT_ALT>, <&kp N8>;
+bindings = <&sk RIGHT_ALT>, <&kp N8>;
 };
 macro_tmux: macro_tmux{
 compatible = "zmk,behavior-macro";
